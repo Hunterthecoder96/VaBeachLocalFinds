@@ -1,0 +1,35 @@
+import React from "react";
+import {Link} from "react-router-dom"
+import Logo from "/src/assets/logo.png"
+import "../Styles/Header.css"
+import {TfiInstagram} from "react-icons/Tfi"
+
+
+export default function Header(){
+
+    return(
+    <div className="Header-container">
+        <Link className="link" to="/">
+            Home
+        </Link>
+        <Link className="link" to="/resturaunts">
+            Resturaunts
+        </Link>
+        <img className="Logo"src={Logo} alt="Logo"/>
+        <Link className="link">
+            Events
+        </Link>
+        <Link className="link">
+            New Attractions
+        </Link>
+        
+
+    
+    <a  className="insta-container"href="https://www.instagram.com/vabeachlocalfinds/">
+        <TfiInstagram/>
+        <p>@vabeachlocalfinds</p>
+    </a>
+
+    </div>
+    )
+}

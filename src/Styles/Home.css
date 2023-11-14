@@ -1,0 +1,40 @@
+.home-container{
+    position: relative;
+    height:670px;
+}
+    .home-intro{
+    display: flex;
+    padding-top:130px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home-photo{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:100px;
+    object-position: 0 0 400px 0;
+    left:0;
+    z-index: -1;
+    box-shadow: 5px 5px 5px rgb(47, 47, 47);
+}
+
+
+
+ /* about section */
+.about{
+    position: absolute;
+    top:800px;
+    right:75px;
+    left:5px;
+    border: 1px solid rgb(219, 211, 211);
+    background-color: rgb(227, 221, 221);
+    
+}
+.about >p {
+    padding-left: 20px;
+    margin-right: 50px;
+    font-size: 30px;
+}

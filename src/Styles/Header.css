@@ -1,0 +1,32 @@
+.Logo{
+    height:100px;
+    width:100px;
+}
+
+.Header-container{
+    display:flex;
+    background-color: rgb(226, 223, 223);
+    justify-content: center;
+    align-items: center;
+    z-index:1;
+    box-shadow: 5px 5px 5px rgb(47, 47, 47);
+}
+.link{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+
+.insta-container{
+    display: flex;
+   align-items: center;
+    text-decoration: none;
+    color:black;
+    position:relative;
+    left:350px;
+    
+}
+.insta-container > p{
+    font-family: cursive;
+   
+} 

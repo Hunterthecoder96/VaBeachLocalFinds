@@ -1,0 +1,14 @@
+.resturaunt-header{
+    padding-top:130px;
+}
+
+.resturaunt-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.resturaunt-items{
+    display: flex;
+   
+}
