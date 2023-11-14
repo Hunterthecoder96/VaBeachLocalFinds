@@ -31,3 +31,10 @@
     font-family: cursive;
    
 } 
+
+@media (max-width:600px){
+    .Header-container{
+        display: flex;
+        flex-direction:column ;
+    }
+}
