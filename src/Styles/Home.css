@@ -2,6 +2,13 @@
     position: relative;
     height:670px;
 }
+.hero >h2{
+    position: relative;
+    top:400px;
+    left:1500px;
+    background-color: white;
+    margin-right:0;
+}
     .home-intro{
     display: flex;
     padding-top:130px;
@@ -27,10 +34,11 @@
 .about{
     position: absolute;
     top:800px;
-    right:75px;
+    right:120px;
     left:5px;
     border: 1px solid rgb(219, 211, 211);
     background-color: rgb(227, 221, 221);
+    border-radius: 5px;
     
 }
 .about >p {

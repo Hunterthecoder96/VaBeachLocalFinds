@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 import Logo from "/src/assets/logo.png"
 import "../Styles/Header.css"
-import {TfiInstagram} from "react-icons/Tfi"
+// import {TfiInstagram} from "react-icons/Tfi"
 
 
 export default function Header(){
@@ -26,7 +26,7 @@ export default function Header(){
 
     
     <a  className="insta-container"href="https://www.instagram.com/vabeachlocalfinds/">
-        <TfiInstagram/>
+        {/* <TfiInstagram/> */}
         <p>@vabeachlocalfinds</p>
     </a>
 
