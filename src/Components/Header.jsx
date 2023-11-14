@@ -16,8 +16,8 @@ export default function Header(){
             Resturaunts
         </Link>
         <img className="Logo"src={Logo} alt="Logo"/>
-        <Link className="link">
-            Events
+        <Link className="link" to="/shopping">
+            Shopping
         </Link>
         <Link className="link">
             New Attractions

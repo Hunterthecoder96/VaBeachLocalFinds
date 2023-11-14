@@ -4,6 +4,7 @@ import './App.css'
 import Header from './Components/Header'
 import Home from "./Components/Home"
 import Resturaunts from './Components/Resturaunts'
+import Shopping from './Components/Shopping'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
   <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/resturaunts" element={<Resturaunts />} />
+    <Route path="/shopping" element={<Shopping/>}/>
   </Routes>
     </>
   )

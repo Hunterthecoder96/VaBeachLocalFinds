@@ -29,6 +29,11 @@ The city hosts various events and festivals throughout the year, from music conc
 Overall, Virginia Beach combines the relaxation of a beach town with the excitement of a dynamic city, making it a fantastic destination for visitors seeking both leisure and adventure.</p>
 
         </div>
+        <div className="seashore-container">
+            <h1>Nature</h1>
+            <p>First Landing State Park, nestled along the coastline of Virginia, is a captivating natural oasis that beautifully merges land and sea. Spanning over 2,800 acres, this park is steeped in history, being the site where English colonists first landed in 1607 before continuing their journey to establish Jamestown.</p>
+            <img className="seashore-photo" src={"https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_50,w_740/v1/clients/virginiabeachva/144_3_2283_jpeg_2af5fb02-5a69-4104-8670-15a4bbfaee3d.jpg"} />
+        </div>
 
         </div>
     )
