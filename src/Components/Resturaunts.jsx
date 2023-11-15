@@ -10,7 +10,7 @@ export default function Resturaunts() {
 
   return (
     <div className="resturaunt-container">
-      <h1 className="resturaunt-header">Resturaunts</h1>
+      <h1 className="resturaunt-header">Restaurant's</h1>
       <div className="resturaunt-items">{map}</div>
     </div>
   );

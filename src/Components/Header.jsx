@@ -10,10 +10,10 @@ export default function Header(){
     return(
     <div className="Header-container">
         <Link className="link" to="/">
-            Home
+        Home
         </Link>
         <Link className="link" to="/resturaunts">
-            Resturaunts
+        Restaurants
         </Link>
         <img className="Logo"src={Logo} alt="Logo"/>
         <Link className="link" to="/shopping">

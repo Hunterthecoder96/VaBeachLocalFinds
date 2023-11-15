@@ -25,8 +25,8 @@
     text-decoration: underline;
   }
   .hero-logo{
-    width:75px;
-    height:75px;
+    width:85px;
+    height:95px;
   }
   .h2-container {
     
@@ -137,6 +137,9 @@
 }
 
 .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 80%;
     padding-right: 20px;
   }
