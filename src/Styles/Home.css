@@ -58,22 +58,42 @@
 
 
  /* about section */
-.about{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+ .about {
     border: 1px solid rgb(219, 211, 211);
     background-color: rgb(227, 221, 221);
     border-radius: 5px;
     box-shadow: 0px 5px 5px 2px rgb(47, 47, 47);
-    
-}
-.about >p {
-    padding-left: 20px;
-    margin-right: 50px;
-    font-size: 30px;
-}
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row; /* Align content horizontally */
+  }
+  
+  .about-text {
+    flex: 1; /* Allow the text to take up available space */
+  }
+  
+  .about-text > h1 {
+    /* Style the heading as needed */
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .about-text > p {
+    /* Adjust styles for the paragraph */
+    font-size: 25px;
+  }
+  
+  .about-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-left: 50px; /* Add spacing between text and image */
+    border-radius: 5px; /* Optional: Add border-radius to the image */
+    width:500px;
+  }
+  
 
 /* Seashore */
 

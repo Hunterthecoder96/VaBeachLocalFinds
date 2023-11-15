@@ -1,15 +1,40 @@
-.resturaunt-header{
-    padding-top:130px;
-}
+/* Your existing styles */
 
-.resturaunt-container{
+.resturaunt-header {
+    padding-top: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .resturaunt-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    max-width: 1000px; /* Adjust max-width as needed */
+    padding-left:500px;
+  }
   
-}
-.resturaunt-items{
-    display: flex;
-
-}
+  .resturaunt-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  /* Additional styling for the card if needed */
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Any other styles you want to apply */
+  }
+  
+  /* Ensure three cards per row */
+  @media (min-width: 768px) {
+    .resturaunt-items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
