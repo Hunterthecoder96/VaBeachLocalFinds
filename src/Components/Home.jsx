@@ -4,6 +4,7 @@ import About from "./About";
 import Nature from "./Nature";
 import Hero from "./Hero";
 import Fitness from "./Fitness";
+import Concerts from "./Concerts";
 
 export default function Home(){
 
@@ -14,6 +15,7 @@ export default function Home(){
         <About/>
        <Nature/>
         <Fitness/>
+        <Concerts/>
 
         </div>
     )

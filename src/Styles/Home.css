@@ -93,6 +93,8 @@
     border-radius: 5px; /* Optional: Add border-radius to the image */
     width:500px;
   }
+
+
   
 
 /* Seashore */
@@ -152,4 +154,27 @@
     padding: 20px; /* Add padding for readability */
     font-family: Arial, sans-serif; /* Use a commonly available font */
     font-size: 24px; /* Adjust font size as needed */
+  }
+
+  /* concerts */
+
+  .concert-container{
+    display:flex;
+    padding:100px;
+    background-image:linear-gradient(rgba(115, 115, 115, 0.5), rgba(142, 142, 142, 0.5)), url("https://beacheventsvb.com/wp-content/uploads/2021/03/web_header_new_laborday-copy.jpg");
+  }
+  .concert-image{
+    padding:20px;
+    width:600px;
+    height:300px;
+  }
+  .concert-words {
+    background-color: rgba(181, 219, 219, 0.4); /* Aqua color with 50% transparency */
+    color: rgb(38, 25, 25);
+    border-radius: 6px;
+}
+
+  .concert-words >p{
+    font-size: 28px;
+
   }
