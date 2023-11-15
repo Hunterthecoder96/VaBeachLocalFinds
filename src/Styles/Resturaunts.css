@@ -12,7 +12,7 @@
     justify-content: center;
     flex-direction: column;
     max-width: 1000px; /* Adjust max-width as needed */
-    padding-left:500px;
+    padding-left:5px;
   }
   
   .resturaunt-items {
@@ -29,6 +29,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
     /* Any other styles you want to apply */
   }
   
@@ -36,5 +37,8 @@
   @media (min-width: 768px) {
     .resturaunt-items {
       grid-template-columns: repeat(3, 1fr);
+    }
+    .resturaunt-container{
+        padding-left: 450px;
     }
   }

@@ -9,7 +9,7 @@ const map =ShoppingList.map(place=>{
 export default function Shopping(){
 
     return(
-        <div>
+        <div className="Shopping-container">
             <h1 className="Title">Shopping</h1>
             <div className="cards">{map}</div>
         </div>

@@ -1,6 +1,7 @@
 .card-container{
     display: flex;
     flex-direction: column;
+    
     border:1px solid #e2e2e2;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);;
@@ -16,6 +17,11 @@
 }
 .card-image{
     max-width: 300px;
+}
+.card-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .card-items-text{
     color:black;
