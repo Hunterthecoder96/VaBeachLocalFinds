@@ -22,13 +22,12 @@ export default function Header(){
         <Link className="link" to="/NewAttractions">
             New Attractions
         </Link>
-        
 
-    
-    <a  className="insta-container"href="https://www.instagram.com/vabeachlocalfinds/">
+        <a  className="insta-container"href="https://www.instagram.com/vabeachlocalfinds/">
         <TiSocialInstagram/>
         <p>@vabeachlocalfinds</p>
-    </a>
+        </a>
+    
 
     </div>
     )

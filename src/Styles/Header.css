@@ -29,12 +29,41 @@
 }
 .insta-container > p{
     font-family: cursive;
+}
+@media (max-width:1260px){
+.insta-container{
+    position: relative;
+    left:200px;
+}
+}
+@media (max-width:980px){
+    .insta-container{
+        position: relative;
+        left:150px;
+    }
    
-} 
+}
+
+@media (max-width:870px){
+    .insta-container{
+        position: relative;
+        left:100px;
+    }
+   
+}
+
 
 @media (max-width:600px){
     .Header-container{
         display: flex;
         flex-direction:column ;
+        height:100vh;
+        scroll-behavior: none;
+        max-height: 320px;
+        position: absolute;
+        top:0;
+    }
+    .insta-container{
+        left:0;
     }
 }

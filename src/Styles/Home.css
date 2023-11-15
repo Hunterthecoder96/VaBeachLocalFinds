@@ -53,6 +53,29 @@
     
   }
   
+  @media (max-width:600px){
+    .home-container{
+       margin-top: 320px;
+    }
+    .concert-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .concert-image{
+        display: none;
+
+    }
+    .seashore-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-container {
+        min-width: 250px;
+        width:500px;
+        
+    }
+  }
 
 
 
@@ -92,6 +115,7 @@
     margin-left: 50px; /* Add spacing between text and image */
     border-radius: 5px; /* Optional: Add border-radius to the image */
     width:500px;
+    height:-webkit-fill-available;
   }
 
 
@@ -101,7 +125,6 @@
 
 .seashore-container{
     display: flex;
-    
     align-items: center;
     justify-content: center;
     padding-right: 50px;
@@ -114,7 +137,7 @@
 }
 
 .text-container {
-    max-width: 50%;
+    max-width: 80%;
     padding-right: 20px;
   }
   
@@ -169,7 +192,7 @@
     height:300px;
   }
   .concert-words {
-    background-color: rgba(181, 219, 219, 0.4); /* Aqua color with 50% transparency */
+    background-color: rgba(181, 219, 219, 0.5); /* Aqua color with 50% transparency */
     color: rgb(38, 25, 25);
     border-radius: 6px;
 }
