@@ -19,7 +19,7 @@ export default function Header(){
         <Link className="link" to="/shopping">
             Shopping
         </Link>
-        <Link className="link">
+        <Link className="link" to="/NewAttractions">
             New Attractions
         </Link>
         

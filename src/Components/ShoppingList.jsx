@@ -42,9 +42,7 @@ const ShoppingList=[
     link:"https://www.frenchtwistboutique.com/",
     id:"6",
 },
-{
-    name:""
-}
+
 ]
 
 export default ShoppingList;
