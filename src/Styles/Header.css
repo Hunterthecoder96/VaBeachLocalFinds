@@ -1,4 +1,4 @@
-.Logo{
+ .Logo{
     height:110px;
     width:100px;
     
@@ -22,7 +22,7 @@
 .insta-container{
     display: flex;
    align-items: center;
-   justify-content: ;
+  
     text-decoration: none;
     color:black;
     position:relative;
@@ -61,11 +61,59 @@
         flex-direction:column ;
         height:100vh;
         scroll-behavior: none;
-        max-height: 320px;
+        max-height: 50px;
         position: absolute;
         top:0;
     }
     .insta-container{
         left:0;
     }
-}
+} 
+
+/* Existing styles... */
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    display: none; /* Initially hide the hamburger menu */
+    cursor: pointer;
+  }
+  
+  /* Adjust this to control the appearance of the bars */
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+  }
+  
+  /* Show the links-container when the menu is toggled */
+  .links-container {
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  /* Initially hide the links-container */ 
+  .links-container.show {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 950px) {
+    .hamburger-menu {
+      display: block; /* Show hamburger menu under 950px */ 
+    }
+  
+    .links-container {
+      display: none; /* Initially hide the links */
+      position: absolute;
+      top: 100%; /* Adjust this to control the dropdown position */
+      background-color: #fff;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    /* Additional styles for better appearance or animation can be added */
+  }
+  

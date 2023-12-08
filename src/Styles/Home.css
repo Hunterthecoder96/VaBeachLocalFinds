@@ -109,6 +109,19 @@
     /* Adjust styles for the paragraph */
     font-size: 25px;
   }
+
+  @media (max-width:640px){
+    .about-text >p {
+      font-size: 10px;
+    }
+    .text-container > p{
+      font-size: 2px;
+    }
+    .hero{
+      position: relative;
+      
+    }
+  }
   
   .about-image {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
