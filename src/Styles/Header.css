@@ -1,7 +1,7 @@
  .Logo{
     height:110px;
     width:100px;
-    
+    border-radius: 60%;
 }
 
 .Header-container{
@@ -74,7 +74,9 @@
 
 /* Hamburger menu styles */
 .hamburger-menu {
-    display: none; /* Initially hide the hamburger menu */
+    position: absolute;/* Initially hide the hamburger menu */
+    align-items: end;
+    justify-content: end;
     cursor: pointer;
   }
   
