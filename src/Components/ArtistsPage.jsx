@@ -21,10 +21,10 @@ export default function ArtistsPage(){
 
  function ArtCard(props){
     return(
-    <>
+    < div className="art-card">
         <h2 >{props.Art.name}</h2>
-        <img src={props.Art.image} alt="Art"/>
+        <img className="art-img"src={props.Art.image} alt="Art"/>
         
-    </>
+    </div>
 )
 }

@@ -1,5 +1,6 @@
 .art-container{
     display: flex;
+    flex-direction: column;
     padding-top: 150px;
     align-items: center;
     justify-content: center;
@@ -10,4 +11,15 @@
     font-size: 65px;
     text-decoration: underline;
    
+}
+.art-img{
+    width:500px
+
+}
+.art-card{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 5px;
 }
