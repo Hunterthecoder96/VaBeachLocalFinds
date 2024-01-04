@@ -109,8 +109,12 @@
   }
 
   @media (max-width:640px){
+    .about-content>img{
+      width:350px;
+      height:200px;
+    }
     .about-text >p {
-      font-size: 10px;
+      font-size: 15px;
     }
     .text-container > p{
       font-size: 2px;
@@ -126,6 +130,12 @@
     .h2-container{
       font-size: xx-small;
     }
+
+    .about-content{
+      flex-direction: column;
+    }
+    
+    
   }
   
   .about-image {
@@ -187,8 +197,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('https://d1k8hez1mxkuxw.cloudfront.net/external_data/505873/958087.jpeg');
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkq4Vb3xVvB9CH16u1t_s4Va6AlybLp0ezA&s');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     color: white;

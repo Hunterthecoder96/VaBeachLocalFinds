@@ -1,0 +1,13 @@
+.art-container{
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.art-container>h2{
+    font-family: cursive;
+    font-size: 65px;
+    text-decoration: underline;
+   
+}
