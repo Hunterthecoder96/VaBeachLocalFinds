@@ -1,121 +1,99 @@
- .Logo{
-    height:110px;
-    width:100px;
-    border-radius: 60%;
-}
+ .Logo {
+   height: 110px;
+   width: 100px;
+   border-radius: 60%;
+ }
 
-.Header-container{
-    display:flex;
-    position:fixed;
-    background-color: rgb(226, 223, 223);
-    justify-content: center;
-    align-items: center;
-    z-index:1;
-    box-shadow: 5px 5px 5px rgb(47, 47, 47);
-}
-.link{
-    text-decoration: none;
-    color:black;
-    padding:10px;
-}
+ .Header-container {
+   display: flex;
+   padding-right: 20px;
+   flex-direction: row;
+   position: fixed;
+   width:100vw;
+   background-color: rgb(226, 223, 223);
+  justify-content: center;
+   align-items: flex-end; 
+   z-index: 1;
+   box-shadow: 5px 5px 5px rgb(47, 47, 47);
+ }
 
-.insta-container{
-    display: flex;
+ .link {
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+ }
+
+
+
+
+
+
+ @media (max-width:950px) {
+   .Header-container {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     scroll-behavior: none;
+     max-height: 50px;
+     position: absolute;
+     top: 0;
+   }
+
+ }
+
+ /* Existing styles... */
+
+ /* Hamburger menu styles */
+ .hamburger-menu {
+   position: flex;
+   display:none;
+   /* Initially hide the hamburger menu */
+   align-items: start;
+   justify-content: start;
+   cursor: pointer;
+ }
+
+ /* Adjust this to control the appearance of the bars */
+ .bar {
+   width: 25px;
+   height: 3px;
+   background-color: #333;
+   margin: 5px 0;
+ }
+
+ /* Show the links-container when the menu is toggled */
+ .links-container {
+   display: flex;
    align-items: center;
-  
-    text-decoration: none;
-    color:black;
-    position:relative;
-    left:350px;
-    
-}
-.insta-container > p{
-    font-family: cursive;
-}
-@media (max-width:1260px){
-.insta-container{
-    position: relative;
-    left:200px;
-}
-}
-@media (max-width:980px){
-    .insta-container{
-        position: relative;
-        left:150px;
-    }
+ }
+
+ /* Initially hide the links-container */
+ .links-container.show {
+   display: flex;
+   flex-direction: column;
    
-}
-
-@media (max-width:870px){
-    .insta-container{
-        position: relative;
-        left:100px;
-    }
+   align-items: flex-end;
    
-}
+ }
+
+ /* Media queries for responsive design */
+ @media (max-width: 950px) {
+   .hamburger-menu {
+     display: block;
+     
+   }
+
+   .links-container {
+     display: none;
+     /* Initially hide the links */
+     position: absolute;
+     top: 100%;
+     /* Adjust this to control the dropdown position */
+     background-color: #fff;
+     width: 100%;
+     z-index: 1;
+   }
 
 
-@media (max-width:600px){
-    .Header-container{
-        display: flex;
-        flex-direction:column ;
-        height:100vh;
-        scroll-behavior: none;
-        max-height: 50px;
-        position: absolute;
-        top:0;
-    }
-    .insta-container{
-        left:0;
-    }
-} 
-
-/* Existing styles... */
-
-/* Hamburger menu styles */
-.hamburger-menu {
-    position: absolute;/* Initially hide the hamburger menu */
-    align-items: end;
-    justify-content: end;
-    cursor: pointer;
-  }
-  
-  /* Adjust this to control the appearance of the bars */
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 5px 0;
-  }
-  
-  /* Show the links-container when the menu is toggled */
-  .links-container {
-    display: flex;
-    
-    align-items: center;
-  }
-  
-  /* Initially hide the links-container */ 
-  .links-container.show {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* Media queries for responsive design */
-  @media (max-width: 950px) {
-    .hamburger-menu {
-      display: block; /* Show hamburger menu under 950px */ 
-    }
-  
-    .links-container {
-      display: none; /* Initially hide the links */
-      position: absolute;
-      top: 100%; /* Adjust this to control the dropdown position */
-      background-color: #fff;
-      width: 100%;
-      z-index: 1;
-    }
-  
-    /* Additional styles for better appearance or animation can be added */
-  }
-  
+   /* Additional styles for better appearance or animation can be added */
+ }

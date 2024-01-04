@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
-import { TiSocialInstagram } from "react-icons/ti";
 import "../Styles/Header.css";
 
 export default function Header() {
@@ -32,10 +30,7 @@ export default function Header() {
         <Link className="link" to="/NewAttractions">
           New Attractions
         </Link>
-        <a className="insta-container" href="https://www.instagram.com/vabeachlocalfinds/">
-          <TiSocialInstagram />
-          <p>N/A</p>
-        </a>
+       
       </div>
     </div>
   );
