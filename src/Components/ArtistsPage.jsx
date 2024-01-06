@@ -12,7 +12,8 @@ export default function ArtistsPage(){
     return(
         <div className="art-container">
         <h2>Local Art</h2>
-        <div>{map}</div>
+        <div className="art-map">{map}</div>
+        
 
         </div>
         
@@ -24,6 +25,7 @@ export default function ArtistsPage(){
     < div className="art-card">
         <h2 >{props.Art.name}</h2>
         <img className="art-img"src={props.Art.image} alt="Art"/>
+        <p>by: Fletcher Bryant</p>
         
     </div>
 )
